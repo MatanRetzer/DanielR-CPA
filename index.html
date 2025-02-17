@@ -59,7 +59,13 @@
             padding-right: 20px;
         }
 		ul > li {
-			margin-bottom: 10px;  /* רווח בין פריטי הרשימה החיצוניים */
+			    margin-bottom: 20px;  /* רווח בין קבוצות פריטים ראשיות */
+		}
+		ul > li > ul {
+			margin-top: 20px;  /* רווח אחרי כל רשימה פנימית */
+		}
+		ul ul > li {
+			margin-bottom: 10px;  /* רווח קטן יותר בתוך רשימות פנימיות */
 		}
         .cta {
             background-color: #3498db;
